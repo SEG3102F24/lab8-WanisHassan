@@ -29,6 +29,10 @@ dependencies {
 	testImplementation("org.springframework:spring-webflux")
 	testImplementation("org.springframework.graphql:spring-graphql-test")
 	testImplementation("org.springframework.security:spring-security-test")
+	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("org.springframework.boot:spring-boot-starter-graphql")
+	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
+
 }
 
 kotlin {
